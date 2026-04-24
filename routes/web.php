@@ -8,7 +8,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
 
 Route::get('/', function () {
-    return redirect('/rice');
+    return redirect('/rices');
 });
 
 // Authentication Routes
