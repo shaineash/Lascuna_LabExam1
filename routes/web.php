@@ -8,10 +8,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
 
 Route::get('/', function () {
-    if (auth()->check()) {
-        return redirect('/dashboard');
-    }
-    return view('welcome');
+    return redirect('/rice');
 });
 
 // Authentication Routes
